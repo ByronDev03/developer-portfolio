@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css">
+    <title>Byron Frontend</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>Frontend Developer</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">MENU</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">Sobre mi</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">Servicios</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">Proyectos</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">Contacto</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2><span></span>Frontend Developer</h2>
+                <h1 class="descripcion">Construyo interfaces modernas y con impacto real</h1>
+                <p>Especializado en experiencias web interactivas y diseño responsive</p>
+                <a href="#portfolio">Ir</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="assets/me.jpeg" alt="foto byron">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre mi</p>
+            <h2>Hola, soy <span>Byron Jorge Ortega Cuenca</span> </h2>
+            <h3>Frontend Developer</h3>
+            <p>Soy desarrollador frontend enfocado en crear interfaces modernas y responsivas.</p>
+            <p>Me especializo en Angular, JavaScript y diseño UI/UX, cuidando cada detalle visual y de experiencia.</p>
+            <p>Me gusta construir proyectos reales que no solo funcionen, si no que se sientan profesionales.</p>
+
+        </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">Mis Servicios</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-solid fa-code"></i></span>
+                <h4>Website design</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit voluptatibus rem illum sunt, asperiores!</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>Java Programming</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>C++ Programming</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-java"></i></span>
+                <h4>POO</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-palette"></i></span>
+                <h4>Graphic Designer</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>Databases</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+
+            <div class="proyecto">
+                <img src="assets/board-kanban.png" alt="Board Kanban">
+                <div class="overlay">
+                    <h4>Tablero Kanban Interactivo</h4>
+
+                    <p class="stack">HTML • CSS • JavaScript</p>
+
+                    <p class="descripcion">
+                        Aplicación de gestión de tareas con sistema drag & drop, dark mode y almacenamiento local.
+                    </p>
+
+                    <p class="impacto">
+                        Mejora la organización de proyectos y demuestra manejo de eventos y DOM avanzado.
+                    </p>
+
+                    <div class="botones">
+                        <a href="https://interactive-kanban-board-omega.vercel.app/" target="_blank">Demo</a> 
+                        <a href="https://github.com/ByronDev03/interactive-kanban-board.git" target="_blank">Código</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="assets/.png" alt="proyecto 2">
+                <div class="info">
+                    <h4>Fronted</h4>
+                    
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="assets/.png" alt="proyecto 3">
+                <div class="info">
+                    <h4>Fronted</h4>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="assets/.png" alt="proyecto 4">
+                <div class="info">
+                    <h4>Fronted</h4>
+                    
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="assets/.png" alt="proyecto 5">
+                <div class="info">
+                    <h4>Fronted</h4>
+                    
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="assets/.png" alt="proyecto 6">
+                <div class="info">
+                    <h4>Fronted</h4>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="assets/.png" alt="proyecto 7">
+                <div class="info">
+                    <h4>Fronted</h4>
+                    
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="assets/.png" alt="proyecto 8">
+                <div class="info">
+                    <h4>Fronted</h4>
+                    
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="assets/.png" alt="proyecto 9">
+                <div class="info">
+                    <h4>Fronted</h4>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Byron Jorge Ortega Cuenca</p>
+
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
