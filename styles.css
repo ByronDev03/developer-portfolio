@@ -124,7 +124,7 @@
             display: inline-block;
             margin: 25px;
             padding: 20px 25px;
-            border: 2px solid #fff;
+            border: 2px solid #7B112C;
             border-radius: 50px;
             color: #fff;
             font-weight: bold;
@@ -287,14 +287,19 @@
         }
         
         #servicios .fila .servicio .icono {
-            display: inline-block;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             width: 60px;
             height: 60px;
+            margin: 0 auto 25px auto;
             border-radius: 50%;
             background-color: #5A0B16;
             color: #fff;
-            padding: 20px;
-            margin-bottom: 25px;
+        }
+
+        #servicios .fila .servicio .icono i {
+            font-size: 22px;
         }
         
         #servicios .fila .servicio h4 {
@@ -472,12 +477,13 @@
             height: 100%;
             object-fit: cover;
             transition: transform 0.5s ease, filter 0.5s ease;
+            filter: grayscale(0.6);
         }
 
         /* EFECTO HOVER IMAGEN */
         #portfolio .fila .proyecto:hover img {
             transform: scale(1.1);
-            filter: brightness(0.4);
+            filter: grayscale(0) brightness(0.4);
         }
 
         /* OVERLAY NUEVO */
@@ -516,7 +522,19 @@
         .overlay .stack {
             font-size: 14px;
             color: #7B112C;
-            margin-bottom: 10px;
+            background: rgba(0, 0, 0, 0.65);
+            border: 1px solid rgba(123, 17, 44, 0.5);
+            padding: 6px 12px;
+            border-radius: 20px;
+            backdrop-filter: blur(4px);
+            margin-bottom: 14px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        .stack span {
+            color: #ffffff50;
+            margin: 0 4px;
         }
 
         .overlay .descripcion {
