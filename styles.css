@@ -64,7 +64,7 @@
         }
         
         #inicio .contenido header .contenido-header nav ul li a:hover {
-            color: #120e8d;
+            color: #5A0B16;
         }
         
         #inicio .contenido header .contenido-header .redes a {
@@ -76,11 +76,11 @@
         }
         
         #inicio .contenido header .contenido-header .redes a:hover {
-            color: #120e8d;
+            color: #5A0B16;
         }
         
         #inicio .contenido header .contenido-header .seleccionado {
-            color: #120e8d;
+            color: #5A0B16;
         }
         
         #inicio .contenido .presentacion {
@@ -132,8 +132,9 @@
             transition: .5s;
         }
         
+        /* BOTÓN "IR" */
         #inicio .contenido .presentacion a:hover {
-            background-color: #120e8d;
+            background-color: #5A0B16;
         }
         
         .btn-cv {
@@ -142,13 +143,15 @@
             border-radius: 30px;
             text-decoration: none;
             color: white;
-            border: 2px solid #B22222;
+            border: 2px solid #5A0B16;
             transition: 0.3s ease;
             font-weight: 500;
         }
 
         .btn-cv:hover {
-            background: #CD5C5C;
+            background: #5A0B16;
+            color: #fff !important;
+            border-color: #7B112C;
             transform: translateY(-2px);
         }
 
@@ -194,9 +197,9 @@
         #sobremi .sobremi .titulo-seccion {
             font-size: 22px;
             text-transform: uppercase;
-            color: #818181;
+            color: #646161;
             text-decoration: underline;
-            text-decoration-color: #d3d3d3;
+            text-decoration-color: #5A0B16;
             text-decoration-thickness: 5px;
         }
         
@@ -257,9 +260,9 @@
             text-align: center;
             font-size: 22px;
             text-transform: uppercase;
-            color: #646161;;
+            color: #646161;
             text-decoration: underline;
-            text-decoration-color: #ffffff;
+            text-decoration-color: #5A0B16;
             text-decoration-thickness: 5px;
         }
         
@@ -288,7 +291,8 @@
             width: 60px;
             height: 60px;
             border-radius: 50%;
-            background-color: #d3d3d3;
+            background-color: #5A0B16;
+            color: #fff;
             padding: 20px;
             margin-bottom: 25px;
         }
@@ -435,9 +439,9 @@
             text-align: center;
             font-size: 22px;
             text-transform: uppercase;
-            color: #646161;;
+            color: #646161;
             text-decoration: underline;
-            text-decoration-color: #d3d3d3;
+            text-decoration-color: #5A0B16;
             text-decoration-thickness: 5px;
         }
         
@@ -511,7 +515,7 @@
 
         .overlay .stack {
             font-size: 14px;
-            color: #3B82F6;
+            color: #7B112C;
             margin-bottom: 10px;
         }
 
@@ -529,7 +533,7 @@
         .overlay .botones a {
             text-decoration: none;
             color: white;
-            border: 1px solid #3B82F6;
+            border: 1px solid #5A0B16;
             padding: 6px 12px;
             margin: 5px;
             border-radius: 5px;
@@ -538,7 +542,7 @@
         }
 
         .overlay .botones a:hover {
-            background: #3B82F6;
+            background: #5A0B16;
         }
 
         /* BOTON GITHUB DIFERENTE */
@@ -597,9 +601,9 @@
             text-align: center;
             font-size: 22px;
             text-transform: uppercase;
-            color: #111135;
+            color: #646161;;
             text-decoration: underline;
-            text-decoration-color: #d3d3d3;
+            text-decoration-color: #5A0B16;
             text-decoration-thickness: 5px;
         }
         
