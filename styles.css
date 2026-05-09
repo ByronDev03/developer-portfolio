@@ -142,14 +142,21 @@
             border-radius: 30px;
             text-decoration: none;
             color: white;
-            border: 2px solid #3B82F6;
+            border: 2px solid #B22222;
             transition: 0.3s ease;
             font-weight: 500;
         }
 
         .btn-cv:hover {
-            background: #3B82F6;
+            background: #CD5C5C;
             transform: translateY(-2px);
+        }
+
+        .botones-hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
         }
 
         #icono-nav {
@@ -630,7 +637,34 @@
         /* seccion R E S P O N S I V E */
         /* *********************/
         
+        @keyframes menuFade {
+            from{
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
         @media screen and (max-width: 800px) {
+            #inicio .contenido .presentacon {
+                padding: 0 20px;
+                gap: 10px;
+            }
+            #inicio .contenido .presentacon h2{
+                margin-top: 40px;
+            }
+            .btn #inicio .contenido .presentación a {
+                padding: 12px 18px;
+                font-size: 14px;
+            }
+            .botones-hero {
+                flex-direction: column;
+                align-items: center;
+            }
             .redes {
                 display: none;
             }
@@ -639,19 +673,22 @@
             }
             nav.responsive {
                 display: block;
-                background-color: rgba(0, 0, 0, .8);
+                background-color: rgba(0, 0, 0, 0.75);
+                backdrop-filter: blur(8px);
                 width: 100%;
                 position: absolute;
-                top: 48px;
+                top: 70px;
                 left: 0;
-                padding: 10px 0;
+                padding: 20px 0;
+                border-bottom: 1px solid rgb(255, 255, 255, 0.1);
+                animation: menuFade 0.3s ease
             }
             nav.responsive ul {
                 display: block !important;
                 text-align: center;
             }
             nav.responsive ul li {
-                margin: 5px 0;
+                margin: 18px 0;
             }
             #icono-nav {
                 display: block;
