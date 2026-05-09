@@ -136,6 +136,22 @@
             background-color: #120e8d;
         }
         
+        .btn-cv {
+            display: inline-block;
+            padding: 12px 20px;
+            border-radius: 30px;
+            text-decoration: none;
+            color: white;
+            border: 2px solid #3B82F6;
+            transition: 0.3s ease;
+            font-weight: 500;
+        }
+
+        .btn-cv:hover {
+            background: #3B82F6;
+            transform: translateY(-2px);
+        }
+
         #icono-nav {
             color: #fff;
             display: none;
