@@ -802,7 +802,7 @@
                 margin: 10px auto;
             }
             #portfolio .fila .proyecto .overlay {
-                justify-content: center;
+                justify-content: flex-end;
                 padding: 25px 18px;
                 gap: 8px;
             }
