@@ -61,6 +61,11 @@
             margin: 0 12px;
             font-weight: 400;
             transition: .5s;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
         }
         
         #inicio .contenido header .contenido-header nav ul li a:hover {
