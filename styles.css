@@ -514,9 +514,49 @@
             transform: translateY(0);
         }
 
+        /* ANIMACION TEXTO OVERLAY */
+        .overlay h4,
+        .overlay .stack,
+        .overlay .descripcion,
+        .overlay .impacto,
+        .overlay .botones {
+            opacity: 0;
+            transform: translateY(10px);
+            transition: 0.3s ease;
+        }
+
+        .proyecto:hover .overlay h4 {
+            opacity: 1;
+            transform: translateY(0);
+            transition-delay: 0.1s;
+        }
+
+        .proyecto:hover .overlay .stack {
+            opacity: 1;
+            transform: translateY(0);
+            transition-delay: 0.2s;
+        }
+
+        .proyecto:hover .overlay .descripcion {
+            opacity: 1;
+            transform: translateY(0);
+            transition-delay: 0.3s;
+        }
+
+        .proyecto:hover .overlay .impacto {
+            opacity: 1;
+            transform: translateY(0);
+            transition-delay: 0.4s;
+        }
+
+        .proyecto:hover .overlay .botones {
+            opacity: 1;
+            transform: translateY(0);
+            transition-delay: 0.5s;
+        }
+
         .overlay h4 {
-            font-size: 20px;
-            margin-bottom: 10px;
+            margin-bottom: 8px;
         }
 
         .overlay .stack {
@@ -552,11 +592,11 @@
             text-decoration: none;
             color: white;
             border: 1px solid #5A0B16;
-            padding: 6px 12px;
+            padding: 6px 14px;
             margin: 5px;
-            border-radius: 5px;
+            border-radius: 6px;
             transition: 0.3s;
-            font-size: 13px;
+            font-size: 12px;
         }
 
         .overlay .botones a:hover {
