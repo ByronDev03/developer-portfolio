@@ -151,6 +151,7 @@
             border: 2px solid #5A0B16;
             transition: 0.3s ease;
             font-weight: 500;
+            width: fit-content;
         }
 
         .btn-cv:hover {
