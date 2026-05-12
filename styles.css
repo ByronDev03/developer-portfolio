@@ -854,3 +854,82 @@
                 margin-bottom: 15px;
             }
         }
+
+        /* *********************/
+/* SECCION REDES */
+/* *********************/
+
+#redes-contacto {
+    padding: 100px 20px;
+    background: #000;
+    text-align: center;
+}
+
+#redes-contacto .titulo-seccion {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #646161;
+    text-decoration: underline;
+    text-decoration-color: #5A0B16;
+    text-decoration-thickness: 5px;
+}
+
+#redes-contacto .subtitulo {
+    color: #aaa;
+    margin-top: 25px;
+    margin-bottom: 60px;
+    font-size: 15px;
+}
+
+.contenedor-redes {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.red-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.red-social {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 2px solid #5A0B16;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+
+    transition: all 0.4s ease;
+}
+
+.red-social i {
+    font-size: 34px;
+    color: #fff;
+    transition: all 0.4s ease;
+}
+
+.red-social:hover {
+    transform: translateY(-8px) rotate(10deg) scale(1.08);
+
+    box-shadow:
+        0 0 15px rgba(90,11,22,.6),
+        0 0 30px rgba(90,11,22,.4);
+}
+
+.red-social:hover i {
+    transform: scale(1.15);
+}
+
+.red-item span {
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
