@@ -853,19 +853,29 @@
                 width: 100%;
                 margin-bottom: 15px;
             }
+            .contenedor-redes {
+                gap: 35px;
+            }
+            .red-social {
+                width: 75px;
+                height: 75px;
+            }
+            .red-social i {
+                font-size: 28px;
+            }
         }
 
         /* *********************/
-/* SECCION REDES */
+        /* SECCION REDES */
 /* *********************/
 
-#redes-contacto {
+#contacto {
     padding: 100px 20px;
     background: #000;
     text-align: center;
 }
 
-#redes-contacto .titulo-seccion {
+#contacto .titulo-seccion {
     font-size: 22px;
     text-transform: uppercase;
     color: #646161;
@@ -874,7 +884,7 @@
     text-decoration-thickness: 5px;
 }
 
-#redes-contacto .subtitulo {
+#contacto .subtitulo {
     color: #aaa;
     margin-top: 25px;
     margin-bottom: 60px;
