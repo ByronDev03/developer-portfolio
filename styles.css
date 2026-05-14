@@ -316,7 +316,7 @@ html {
     color: #fff;
 }
         
-#servicios .fila .servicio hr {
+#capacidades .fila .capacidad hr {
     width: 30%;
     margin: auto;
     color: #000;
@@ -732,15 +732,15 @@ nav.responsive ul li:nth-child(7) {
     }
             
     /* seccion MIS SERVICIOS */     
-    #servicios {
+    #capacidades {
         padding: 50px 15px;
     }
             
-    #servicios .fila {
+    #capacidades .fila {
         display: block;
     }
             
-    #servicios .fila .servicio {
+    #capacidades .fila .capacidad {
          margin: 10px auto;
     }
             
