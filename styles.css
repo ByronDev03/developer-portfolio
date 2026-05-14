@@ -1,3 +1,6 @@
+/* =========================
+   RESET & BASE
+========================= */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
 * {
     margin: 0;
@@ -18,16 +21,9 @@ html {
     scroll-behavior: smooth;
 }
 
-/* *********************/        
-/* INICIO */
-/* *********************/
-#inicio {
-    background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("assets/programando.jpg");
-    background-size: cover;
-    background-position: center center;
-    height: 100vh;
-}
-        
+/* =========================
+   HEADER / NAVBAR
+========================= */
 #inicio .contenido header {
     background-color: rgba(0, 0, 0, .8);
     position: fixed;
@@ -87,6 +83,42 @@ html {
 #inicio .contenido header .contenido-header .seleccionado {
     color: #5A0B16;
 }
+
+.btn-cv {
+    display: inline-block;
+    padding: 12px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid #5A0B16;
+    transition: 0.3s ease;
+    font-weight: 500;
+    width: fit-content;
+}
+
+.btn-cv:hover {
+    background: #5A0B16;
+    color: #fff !important;
+    border-color: #7B112C;
+    transform: translateY(-2px);
+}
+
+#icono-nav {
+    color: #fff;
+    display: none;
+    font-size: 28px;
+    padding: 6px;
+}
+
+/* =========================
+   HERO
+========================= */
+#inicio {
+    background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("assets/programando.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
         
 #inicio .contenido .presentacion {
     max-width: 1100px;
@@ -141,25 +173,6 @@ html {
 #inicio .contenido .presentacion a:hover {
     background-color: #5A0B16;
 }
-        
-.btn-cv {
-    display: inline-block;
-    padding: 12px 20px;
-    border-radius: 30px;
-    text-decoration: none;
-    color: white;
-    border: 2px solid #5A0B16;
-    transition: 0.3s ease;
-    font-weight: 500;
-    width: fit-content;
-}
-
-.btn-cv:hover {
-    background: #5A0B16;
-    color: #fff !important;
-    border-color: #7B112C;
-    transform: translateY(-2px);
-}
 
 .botones-hero {
     display: flex;
@@ -168,16 +181,9 @@ html {
     gap: 12px;
 }
 
-#icono-nav {
-    color: #fff;
-    display: none;
-    font-size: 28px;
-    padding: 6px;
-}
-
-/* *********************/ 
-/* SOBRE MI */
-/* *********************/
+/* =========================
+   ABOUT
+========================= */
 #sobremi {
     max-width: 1100px;
     margin: auto;
@@ -255,9 +261,9 @@ html {
     color: #fff;
 }
 
-/* *********************/
-/* CAPACIDADES */
-/* *********************/
+/* =========================
+   CAPABILITIES
+========================= */
 #capacidades {
     padding: 100px 15px;
     text-align: center;
@@ -336,9 +342,9 @@ html {
     color: #fff;
 }
 
-/* *********************/
-/* PROYECTOS */
-/* *********************/
+/* =========================
+   PROJECTS
+========================= */
 #portfolio {
     max-width: 1100px;
     padding: 100px 0;
@@ -508,9 +514,9 @@ html {
     background: #333;
 }        
 
-/* *********************/
-/* CONTACTO & REDES */
-/* *********************/
+/* =========================
+   CONTACT
+========================= */
 #contacto {
     padding: 100px 20px;
     background: #000;
@@ -584,9 +590,9 @@ html {
     letter-spacing: 1px;
 }
 
-/* *********************/
-/* FOOTER */
-/* *********************/
+/* =========================
+   FOOTER
+========================= */
 footer {
     background-color: #000;
     color: #fff;
@@ -602,9 +608,9 @@ footer a {
     font-size: 26px;
 }
 
-/* *********************/
-/* RESPONSIVE */
-/* *********************/
+/* =========================
+   ANIMATIONS
+========================= */
 @keyframes menuFade {
     from{
         opacity: 0;
@@ -617,34 +623,9 @@ footer a {
     }
 }
 
-nav.responsive ul li:nth-child(1) {
-    animation-delay: 0.05s;
-}
-
-nav.responsive ul li:nth-child(2) {
-    animation-delay: 0.10s;
-}
-
-nav.responsive ul li:nth-child(3) {
-    animation-delay: 0.15s;
-}
-
-nav.responsive ul li:nth-child(4) {
-    animation-delay: 0.20s;
-}
-
-nav.responsive ul li:nth-child(5) {
-    animation-delay: 0.25s;
-}
-
-nav.responsive ul li:nth-child(6) {
-    animation-delay: 0.30s;
-}
-
-nav.responsive ul li:nth-child(7) {
-    animation-delay: 0.35s;
-}
-
+/* =========================
+   RESPONSIVE
+========================= */
 @media screen and (max-width: 800px) {
     #inicio .contenido {
         padding: 0 20px;
@@ -728,7 +709,6 @@ nav.responsive ul li:nth-child(7) {
         text-align: center;
     }
             
-    /* seccion MIS SERVICIOS */     
     #capacidades {
         padding: 50px 15px;
     }
@@ -739,11 +719,6 @@ nav.responsive ul li:nth-child(7) {
             
     #capacidades .fila .capacidad {
          margin: 10px auto;
-    }
-            
-    /* seccion HABLIDADES MI */
-    .contenedor-skills {
-        padding: 50px 20px;
     }
     
     /* seccion PROYECTOS */
@@ -764,16 +739,6 @@ nav.responsive ul li:nth-child(7) {
         padding: 50px 15px;
     }
             
-    #contacto .contenedor-form .mitad {
-        margin-bottom: 15px;
-        display: block;
-    }
-            
-    #contacto .contenedor-form .mitad input {
-        width: 100%;
-        margin-bottom: 15px;
-    }
-            
     .contenedor-redes {
         gap: 35px;
     }
@@ -786,44 +751,32 @@ nav.responsive ul li:nth-child(7) {
     .red-social i {
         font-size: 28px;
     }
+
+    nav.responsive ul li:nth-child(1) {
+        animation-delay: 0.05s;
+    }
+
+    nav.responsive ul li:nth-child(2) {
+        animation-delay: 0.10s;
+    }
+
+    nav.responsive ul li:nth-child(3) {
+        animation-delay: 0.15s;
+    }
+
+    nav.responsive ul li:nth-child(4) {
+        animation-delay: 0.20s;
+    }
+
+    nav.responsive ul li:nth-child(5) {
+        animation-delay: 0.25s;
+    }
+
+    nav.responsive ul li:nth-child(6) {
+        animation-delay: 0.30s;
+    }
+
+    nav.responsive ul li:nth-child(7) {
+        animation-delay: 0.35s;
+    }
 }
-
-/* =========================
-   RESET & BASE
-========================= */
-
-/* =========================
-   HEADER / NAVBAR
-========================= */
-
-/* =========================
-   HERO
-========================= */
-
-/* =========================
-   ABOUT
-========================= */
-
-/* =========================
-   SERVICES / STACK
-========================= */
-
-/* =========================
-   PROJECTS
-========================= */
-
-/* =========================
-   CONTACT
-========================= */
-
-/* =========================
-   FOOTER
-========================= */
-
-/* =========================
-   ANIMATIONS
-========================= */
-
-/* =========================
-   RESPONSIVE
-========================= */
