@@ -779,4 +779,56 @@ footer a {
     nav.responsive ul li:nth-child(7) {
         animation-delay: 0.35s;
     }
+
+    .stack-badges {
+        gap: 10px;
+    }
+
+    .stack-badges span {
+        font-size: 13px;
+        padding: 8px 14px;
+    }
+}
+
+
+/* STACK BADGES */
+.tech-stack {
+    margin-top: 110px;
+    text-align: center;
+}
+
+.stack-title {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.stack-badges {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.stack-badges span {
+    padding: 10px 18px;
+    border: 1px solid #5A0B16;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 14px;
+    background: rgba(255,255,255,0.02);
+
+    transition: all 0.3s ease;
+}
+
+.stack-badges span:hover {
+    transform: translateY(-3px);
+
+    background: rgba(90,11,22,.15);
+
+    box-shadow:
+        0 0 10px rgba(90,11,22,.4),
+        0 0 20px rgba(90,11,22,.2);
 }
