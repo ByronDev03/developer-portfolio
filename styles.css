@@ -646,16 +646,17 @@ nav.responsive ul li:nth-child(7) {
 }
 
 @media screen and (max-width: 800px) {
-    #inicio .contenido .presentacon {
+    #inicio .contenido {
         padding: 0 20px;
         gap: 10px;
     }
     
-    #inicio .contenido .presentacon h2{
+    #inicio .contenido h2{
         margin-top: 40px;
+        font-size: 40px;
     }
 
-    .btn #inicio .contenido .presentación a {
+    .btn #inicio .contenido a {
         padding: 12px 18px;
         font-size: 14px;
     }
@@ -701,10 +702,6 @@ nav.responsive ul li:nth-child(7) {
             
     #icono-nav {
         display: block;
-    }
-            
-    #inicio .contenido .presentacion h2 {
-        font-size: 40px;
     }
             
     /* seccion SOBRE MI */   
@@ -790,3 +787,43 @@ nav.responsive ul li:nth-child(7) {
         font-size: 28px;
     }
 }
+
+/* =========================
+   RESET & BASE
+========================= */
+
+/* =========================
+   HEADER / NAVBAR
+========================= */
+
+/* =========================
+   HERO
+========================= */
+
+/* =========================
+   ABOUT
+========================= */
+
+/* =========================
+   SERVICES / STACK
+========================= */
+
+/* =========================
+   PROJECTS
+========================= */
+
+/* =========================
+   CONTACT
+========================= */
+
+/* =========================
+   FOOTER
+========================= */
+
+/* =========================
+   ANIMATIONS
+========================= */
+
+/* =========================
+   RESPONSIVE
+========================= */
