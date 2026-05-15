@@ -893,6 +893,10 @@ footer a {
         animation-delay: 0.35s;
     }
 
+    nav.responsive ul li:nth-child(8) {
+        animation-delay: 0.45s;
+    }
+
     .stack-badges {
         gap: 10px;
     }
