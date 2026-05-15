@@ -114,6 +114,7 @@ html {
     position: absolute;
     top: 25px;
     right: 25px;
+    display: none;
     color: #fff;
     font-size: 28px;
     cursor: pointer;
@@ -686,6 +687,15 @@ footer a {
 ========================= */
 @media screen and (max-width: 800px) {
 
+    nav.responsive .cerrar-menu {
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 25px;
+        font-size: 28px;
+        cursor: pointer;
+    }
+
     #inicio .contenido header .contenido-header {
         max-width: 100%;
         width: 100%;
@@ -745,16 +755,24 @@ footer a {
     }
     
     nav.responsive ul {
-        display: block !important;
+        display: flex !important;
+        flex-direction: column;
         width: 100%;
+        align-items: flex-start;
     }
             
     nav.responsive ul li {
-        margin: 18px 0;
+        width: 100%;
+        margin: 10px 0;
         display: flex;
         justify-content: flex-start;
         opacity: 0;
         animation: menuFade 0.5s ease forwards;
+    }
+
+    nav.responsive ul li a {
+        justify-content: flex-start !important;
+        text-align: left !important;
     }
             
     #icono-nav {
