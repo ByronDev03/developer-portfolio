@@ -685,13 +685,20 @@ footer a {
 /* ANIMACION ICONO HAMBURGUESA */
 #icono-nav i {
     transition:
-        transform 0.3s ease,
-        color 0.3s ease;
+        transform 0.35s ease,
+        color 0.35s ease,
+        text-shadow 0.35s ease;
 }
 
 #icono-nav:hover i {
     color: #5A0B16;
-    transform: scale(1.12) rotate(8deg);
+    transform: 
+        scale(1.25) 
+        rotate(16deg);
+    text-shadow: 
+        0 0 10px rgba(90, 11, 22, .7),
+        0 0 20px rgba(90, 11, 22, .5);
+
 }
 
 /* =========================
