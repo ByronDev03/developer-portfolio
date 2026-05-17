@@ -315,7 +315,8 @@ html {
 #capacidades .fila .capacidad:hover {
     box-shadow: 5px 5px 10px #c31010, -5px -5px 10px #8a8a8a;
 }
-        
+      
+/* HOVER ICONOS CAPACIDADES */
 #capacidades .fila .capacidad .icono {
     display: flex;
     align-items: center;
@@ -326,10 +327,29 @@ html {
     border-radius: 50%;
     background-color: #5A0B16;
     color: #fff;
+    transition:
+        transform 0.35s ease,
+        box-shadow 0.35s ease,
+        background-color 0.35s ease;
 }
 
 #capacidades .fila .capacidad .icono i {
     font-size: 22px;
+    transition: transform 0.35s ease;
+}
+
+#capacidades .fila .capacidad:hover .icono {
+    transform: translateY(-6px) scale(1.06);
+
+    box-shadow:
+        0 0 15px rgba(90,11,22,.5),
+        0 0 30px rgba(90,11,22,.25);
+
+    background-color: #7B112C;
+}
+
+#capacidades .fila .capacidad:hover .icono i {
+    transform: scale(1.12);
 }
         
 #capacidades .fila .capacidad h4 {
