@@ -735,6 +735,40 @@ footer a {
 
 }
 
+/* SCROLL REVEAL */
+.reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    filter: blur(6px);
+
+    transition:
+        opacity 0.8s ease,
+        transform 0.8s ease,
+        filter 0.8s ease;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+}
+
+/* DELAYS */
+.capacidad:nth-child(1) { transition-delay: 0.1s; }
+.capacidad:nth-child(2) { transition-delay: 0.2s; }
+.capacidad:nth-child(3) { transition-delay: 0.3s; }
+.capacidad:nth-child(4) { transition-delay: 0.4s; }
+.capacidad:nth-child(5) { transition-delay: 0.5s; }
+.capacidad:nth-child(6) { transition-delay: 0.6s; }
+
+.proyecto:nth-child(1) { transition-delay: 0.1s; }
+.proyecto:nth-child(2) { transition-delay: 0.2s; }
+.proyecto:nth-child(3) { transition-delay: 0.3s; }
+
+.red-item:nth-child(1) { transition-delay: 0.1s; }
+.red-item:nth-child(2) { transition-delay: 0.2s; }
+.red-item:nth-child(3) { transition-delay: 0.3s; }
+
 /* =========================
    RESPONSIVE
 ========================= */
