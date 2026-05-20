@@ -46,11 +46,13 @@ https://byron-frontend.vercel.app/
 
 ```bash
 /developer-portfolio
- ├── assets/        # Icons and resources
- ├── index.html     # Main structure
- ├── styles.css     # Portfolio styles
- ├── main.js        # Portfolio logic
- └── README.md      # Project documentation
+│
+├── assets/        # Icons and resources
+├── index.html     # Main structure
+├── styles.css     # Portfolio styling
+├── main.js        # Portfolio logic
+├── README.md      # Project documentation
+└── LICENSE        # Legal usage rules
 ``` 
 
 ---
