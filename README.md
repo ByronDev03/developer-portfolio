@@ -6,7 +6,6 @@ This project was built to showcase my skills as a frontend developer through a v
 ---
 
 ## Live Demo
-
 https://byron-frontend.vercel.app/
 
 ---
@@ -27,7 +26,6 @@ https://byron-frontend.vercel.app/
 ---
 
 ## Technologies Used
-
 - HTML5
 - CSS3
 - JavaScript
@@ -48,7 +46,6 @@ https://byron-frontend.vercel.app/
 ---
 
 ## UI/UX Highlights
-
 - Dark premium visual identity
 - Smooth hover transitions
 - Glow effects
@@ -95,9 +92,7 @@ Custom JavaScript-based reveal animations using:
 ---
 
 ## Responsive Design
-
-The portfolio is fully responsive and optimized for:
-
+**The portfolio is fully responsive and optimized for:**
 - Desktop
 - Tablet
 - Mobile devices
@@ -106,23 +101,17 @@ The portfolio is fully responsive and optimized for:
 
 ## Contact
 GitHub
-
 https://github.com/ByronDev03
 
 LinkedIn
-
 https://www.linkedin.com/in/byroncuenca/
 
 ---
 
 ## License
-
 This project is open source and available under the MIT License.
 
 ---
 
 ## Author
-
-Byron Jorge Ortega Cuenca
-
-Frontend Developer passionate about creating modern, responsive and interactive web experiences.
+*Developed by Byron Jorge Ortega Cuenca*
