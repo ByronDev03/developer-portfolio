@@ -5,11 +5,6 @@ This project was built to showcase my skills as a frontend developer through a v
 
 ---
 
-## Live Demo
-https://byron-frontend.vercel.app/
-
----
-
 ## Features
 - Responsive modern layout
 - Mobile sidebar navigation menu
@@ -34,6 +29,32 @@ https://byron-frontend.vercel.app/
 
 ---
 
+## Preview
+
+<div align="center">
+  <img src="assets/.png" width="600" alt="Developer Portfolio"/>
+</div>
+
+---
+
+## Live Demo
+https://byron-frontend.vercel.app/
+
+---
+
+## Project Structure
+
+```bash
+/developer-portfolio
+ ├── assets/        # Icons and resources
+ ├── index.html     # Main structure
+ ├── styles.css     # Portfolio styles
+ ├── main.js        # Portfolio logic
+ └── README.md      # Project documentation
+``` 
+
+---
+
 ## Main Developer Stack
 - HTML5
 - CSS3
@@ -54,19 +75,6 @@ https://byron-frontend.vercel.app/
 - Interactive capability cards
 - Animated social media buttons
 - Modern project showcase overlays
-
----
-
-## Project Structure
-
-```
-/developer-portfolio
- ├── assets
- ├── index.html
- ├── styles.css
- ├── main.js
- └── README.md
-``` 
 
 ---
 
@@ -99,12 +107,21 @@ Custom JavaScript-based reveal animations using:
 
 ---
 
-## Contact
-GitHub
-https://github.com/ByronDev03
+# Getting Started
 
-LinkedIn
-https://www.linkedin.com/in/byroncuenca/
+Clone the repository:
+
+```bash
+git clone https://github.com/ByronDev03/developer-portfolio.git
+```
+
+Open the project folder:
+
+```bash
+cd developer-portfolio.git
+```
+
+Then simply open `index.html` in your browser.
 
 ---
 
