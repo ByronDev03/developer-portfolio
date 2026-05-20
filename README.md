@@ -118,7 +118,7 @@ git clone https://github.com/ByronDev03/developer-portfolio.git
 Open the project folder:
 
 ```bash
-cd developer-portfolio.git
+cd developer-portfolio
 ```
 
 Then simply open `index.html` in your browser.
