@@ -84,7 +84,7 @@ https://byron-frontend.vercel.app/
 - Animated menu items
 - Active section highlighting
 
-**Scroll Reveal System**
+**Scroll Reveal System**<br>
 Custom JavaScript-based reveal animations using:
 - opacity transitions
 - blur effects
