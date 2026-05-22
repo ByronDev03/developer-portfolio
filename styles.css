@@ -1108,25 +1108,25 @@ footer a {
     }
 
     #certificaciones {
-    padding: 70px 15px;
-}
+        padding: 70px 15px;
+    }
 
-.timeline {
-    padding-left: 25px;
-}
+    .timeline {
+        padding-left: 25px;
+    }
 
-.timeline-content {
-    padding: 22px;
-}
+    .timeline-content {
+        padding: 22px;
+    }
 
-.timeline-content h4 {
-    font-size: 18px;
-}
+    .timeline-content h4 {
+        font-size: 18px;
+    }
 
-.timeline-content p {
-    font-size: 13px;
-    line-height: 24px;
-}
+    .timeline-content p {
+        font-size: 13px;
+        line-height: 24px;
+    }
 }
 
 
