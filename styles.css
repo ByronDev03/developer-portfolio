@@ -1114,6 +1114,10 @@ footer a {
         animation-delay: 0.45s;
     }
 
+    nav.responsive ul li:nth-child(9) {
+        animation-delay: 0.50s;
+    }
+
     .stack-badges {
         gap: 10px;
     }
