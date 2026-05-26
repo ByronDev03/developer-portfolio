@@ -1,4 +1,4 @@
-<h1 align="center">Fullstack Web Developer Portfolio</h1>
+<h1 align="center">Frontend Developer Portfolio</h1>
 
 Modern and responsive developer portfolio focused on clean UI/UX, interactive animations and premium frontend experiences.
 This project was built to showcase my skills as a frontend developer through a visually polished interface with responsive layouts, animated interactions and modern web design principles.
