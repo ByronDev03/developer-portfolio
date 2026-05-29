@@ -408,6 +408,9 @@ html {
     font-size: 14px;
     background: rgba(255,255,255,0.02);
     transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .stack-badges span:hover {
@@ -419,8 +422,8 @@ html {
 }
 
 .stack-badges span img{
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     filter: brightness(0) invert(1);
     opacity: .9;
 }
