@@ -407,18 +407,27 @@ html {
     color: #fff;
     font-size: 14px;
     background: rgba(255,255,255,0.02);
-
     transition: all 0.3s ease;
 }
 
 .stack-badges span:hover {
     transform: translateY(-3px);
-
     background: rgba(90,11,22,.15);
-
     box-shadow:
         0 0 10px rgba(90,11,22,.4),
         0 0 20px rgba(90,11,22,.2);
+}
+
+.stack-badges span img{
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+    opacity: .9;
+}
+
+.stack-badges span:hover img{
+    opacity: 1;
+    transform: scale(1.1);
 }
 
 
