@@ -154,14 +154,12 @@ body {
 
 .habilidades {
     display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+    flex-direction: column;
+    gap: 8px;
 }
 
-.habilidades span {
-    border: 1px solid #aaa;
-    padding: 6px 12px;
-    border-radius: 4px;
+.habilidades strong {
+    font-weight: 700;
 }
 
 
